@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="bg-pink-200 flex justify-center   items-center  py-48 h-lvh">
+    <div class=" bg-[#00000050] p-10 grid gap-5 rounded-lg">
+            <h1 class="text-2xl font-bold">BMI CALCULATOR</h1>
+
+             <form action="" class="space-y-6">
+                 <p><label class="font-semibold" >HEIGHT :</label> <input type="text" id="height" placeholder="Height in cm" class="bg-[#ffffff70] shadow-lg px-5 py-2 rounded-full focus:bg-[#00000050] "></p>
+                 <p><label class="font-semibold" >WEIGHT:</label> <input type="text" id="weight" placeholder="weight in kg" class="bg-[#ffffff70] shadow-lg px-5 py-2 rounded-full focus:bg-[#00000050] "></p>
+                <button class="bg-pink-300 py-2 w-[320px] rounded-full relative left-1 shadow-lg">calculate</button>
+                 <br>
+                 <input  id="result"  type="text" class="bg-[#ffffff70] py-2 w-[320px] rounded-full relative left-1 text-start px-5 shadow-lg" placeholder="YOUR BMI IS">
+                 <br>
+                 <!-- <input id="description" type="text"  type="text" class="bg-[#ffffff70]  w-[320px] px-4 rounded-xl relative left-1 h-20 overflow-auto" placeholder="YOUR BMI IS" > -->
+                  <div id="description" class="bg-[#ffffff70] shadow-lg  w-[320px] px-4 rounded-xl relative left-1 h-24 flex items-center justify-center text-center" ></div>
+             
+                </form>
+    </div>
+   
+</body>
+<script src="script.js"></script>
+</html>
